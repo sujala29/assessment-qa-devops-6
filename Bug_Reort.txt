@@ -1,0 +1,146 @@
+Bug-report-Test-Case-1
+
+Discription:
+
+ "See All bots" botton is not  displaying the results when clcicked.
+
+
+Test-Steps:
+
+Load the application by click on the application link: http://localhost:4000
+
+Find the 'See All Bots" Button and ckeck if its color is changing to orange when we hover on it.
+
+now click on the "See All Bots" button.
+
+Test Data:
+
+http://localhost:4000
+
+
+Expected Result:
+
+All the bots should be get displayed.
+
+
+
+
+Actual result: Bots were not displayed.
+
+screenshot: image
+
+Browser:edge
+
+tested by: testing person name
+
+assigned to: developer name
+
+
+Bug-Report -Test-Case-5
+
+Discription:
+
+    The value of wins: is 0 but the value of lossess: is not 0 initially before we start the duel.
+
+
+Test-Steps:
+
+Load the application by click on the application link: http://localhost:4000
+
+on the home page find the wins:  and Lossess: and check if their value is set to "0".
+
+
+Test Data:
+
+http://localhost:4000
+
+
+Expected Result:
+
+wins:0
+Lossess:0
+
+
+
+
+Actual result: 
+wins:0
+lossess: not 0 
+
+screenshot: image
+
+Browser:edge
+
+tested by: testing person name
+
+assigned to: developer name
+
+
+
+
+
+Bug-Report -Test-Case-6
+
+Discription:
+
+ when the game is  played the satus of the wins: and lossess: is not  being  updated according to the game result.
+
+
+Test-Steps:
+
+Load the application by click on the application link: http://localhost:4000
+
+Find the "Draw" Button and click on it.
+
+check if all the bots are displayed.
+
+check if all the bots have "add to duo" button on them.
+
+clcik the button and see if the bot is added to the "your duo"
+
+now add the second bot to the your duo.
+
+now click on duel!
+
+
+
+
+
+
+Test Data:
+
+http://localhost:4000
+
+
+Expected Result:
+
+if you win wins:1 and lossess: should be 0.
+if you looses wins:0 and losses:1
+
+
+
+
+Actual result: win: values is staying 0 and lossess : is changeing eveng when you win.
+
+screenshot: image
+
+Browser:edge
+
+tested by: testing person name
+
+assigned to: developer name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

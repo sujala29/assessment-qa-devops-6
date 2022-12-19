@@ -1,0 +1,67 @@
+Test Plan for the "DUEL DUO" Game.
+
+General Process:
+
+ Testing the overall functionality of the game application.
+
+ Website Link:
+
+ http://localhost:4000
+
+Basic Testing Criteria:
+
+Check if the application is loading when clicked on the link.
+
+Check for the language and the text on the application.
+
+check if all the main hearder in the application is in blue color and the text init is white in color.
+
+check if there two buttons on the main page.
+
+check if the buttons are clickable.
+
+check if the colors of the buttons are blue and the text on it is white in color.
+
+check when you hover on the buttons the button turns orange in color.
+
+check whne you click on the "See All BUttons" the inside information should be displayed.
+
+chek when clicked on DRAW Button all the robots should be displayed.
+
+check if there is a ADD TO DUO button on each robot displayed.
+
+check if the color of the buttons is changing to orange color whne hovered on it.
+
+check if all the buttons on the robots are clickable.
+
+check if the WINS and Lossess should be set to 0 before starting the game.
+
+check if clicked on the "Add to duo" button your Robot should be added to "your Duo".
+
+check to see if you can add only two robots at a time.
+
+check if you can remove the added Robot from the "your duo" by clicking on the "Remove from Duo" button.
+
+
+Check if the battel happens between you and the computer whne clicked on the Duel Butoon.
+
+check if the status of your game is updated either as "you win!" or "You lost!".
+
+check whne you start to battle...the status should be "dueling!".
+
+check when clicked on "Play Again!" button the application should take us to the home page.
+
+
+Entry Criteria:
+
+The application should be downloaded on your local sytem.
+ 
+ The application should run on port:4000
+
+ Home page of the application should be displayed when you loginto the application.
+
+ Exit Criteria:
+
+ All the tests should be run and passed.
+
+ 

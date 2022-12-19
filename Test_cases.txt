@@ -1,0 +1,295 @@
+Test-Case-1
+
+Discription:
+
+verify if the "See All bots" botton is working and displaying the results when clcicked.
+
+
+Test-Steps:
+
+Load the application by click on the application link: http://localhost:4000
+
+Find the 'See All Bots" Button and ckeck if its color is changing to orange when we hover on it.
+
+now click on the "See All Bots" button.
+
+Test Data:
+
+http://localhost:4000
+
+
+Expected Result:
+
+All the bots should be get displayed.
+
+
+
+
+Actual result: Bots were not displayed.
+
+
+
+Test Status:(Pass/Fail)
+
+Fail
+
+
+
+
+Test-Case-2
+
+Discription:
+
+verify if the "Draw" botton is working and displaying the results when clcicked.
+
+
+Test-Steps:
+
+Load the application by click on the application link: http://localhost:4000
+
+Find the 'Draw" Button and ckeck if its color is changing to orange when we hover on it.
+
+now click on the "Draw" button.
+
+
+Test Data:
+
+http://localhost:4000
+
+
+Expected Result:
+
+All the bots should be get displayed when clciked witha "draw 2" message on top of it.
+
+
+
+
+Actual result:
+All the Bots are displayed
+
+
+
+Test Status:(Pass/Fail)
+pass
+
+
+
+
+Test-Case-3
+
+Discription:
+
+verify if the "Add to Duo" botton is working.
+
+
+Test-Steps:
+
+Load the application by click on the application link: http://localhost:4000
+
+Find the "Draw" Button and click on it.
+
+check if all the bots are displayed.
+
+check if all the bots have "add to duo" button on them.
+
+clcik the button and see if the bot is added to the "your duo"
+
+
+
+
+Test Data:
+
+http://localhost:4000
+
+
+Expected Result:
+
+the bot should be added succesfully to the your duo section.
+
+
+Actual result:
+
+the bot is added to the your duo section.
+
+
+
+Test Status:(Pass/Fail)
+
+pass
+
+
+
+Test-Case-4
+
+Discription:
+
+verify if we get a pop-up message when we try to add a third bot to your duo.
+
+test- steps
+
+load the application by click on the application link: http://localhost:4000
+
+Find the "Draw" Button and click on it.
+
+check if all the bots are displayed.
+
+check if all the bots have "add to duo" button on them.
+
+clcik the button and see if the bot is added to the "your duo"
+
+now try to add the third bot to your duo .
+
+a pop-up message saying "You can only choose two bots!" should appear.
+
+
+
+test-data
+
+http://localhost:4000
+
+
+Expected Result:
+
+pop-up box with the "You can only choose two bots!" should be displayed.
+
+
+
+
+Actual result:
+
+the pop up message box is displayed as expected
+
+
+
+Test Status:(Pass/Fail)
+
+Pass
+
+
+
+
+Test-Case-5
+
+Discription:
+
+verify if the WINS: and Lossess: value is 0 initially before starting the game.
+
+
+Test-Steps:
+
+Load the application by click on the application link: http://localhost:4000
+
+on the home page find the wins:  and Lossess: and check if their value is set to "0".
+
+
+Test Data:
+
+http://localhost:4000
+
+
+Expected Result:
+
+wins:0
+Lossess:0
+
+
+
+
+Actual result: 
+wins:0
+lossess: not 0 
+
+
+
+Test Status:(Pass/Fail)
+
+Fail
+
+
+Test-Case-6
+
+Discription:
+
+verify when the gameis  played the satus of the wins: and lossess: should be updated according to the game result.
+
+
+Test-Steps:
+
+Load the application by click on the application link: http://localhost:4000
+
+Find the "Draw" Button and click on it.
+
+check if all the bots are displayed.
+
+check if all the bots have "add to duo" button on them.
+
+clcik the button and see if the bot is added to the "your duo"
+
+now add the second bot to the your duo.
+
+now click on duel!
+
+if you win the game the wins: value should be updated to 1 now.
+
+if you lost the value of lossess: should  be updated to 1.
+
+
+
+
+
+Test Data:
+
+http://localhost:4000
+
+
+Expected Result:
+
+if you win wins:1 and lossess: should be 0.
+if you looses wins:0 and losses:1
+
+
+
+
+Actual result: win: values is staying o and lossess : is changeing eveng when you win.
+
+
+
+
+Test Status:(Pass/Fail)
+
+Fail
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
